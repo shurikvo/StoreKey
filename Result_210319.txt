@@ -1,0 +1,27 @@
+
+---------- Encrypt begins
+--- KeyGenerator.getInstance
+--- KeyGenParameterSpec...
+--- keyGenerator.init
+--- keyGenerator.generateKey
+--- Cipher.getInstance
+--- cipher.init
+--- cipher.doFinal
+    IV: E226FA7D99B281E435DF3DFF4526703A
+Cipher: 00112233445566778899AABBCCDDEEFF80000000000000000000000000000000
+Crypto: 9ECB41E58CF4BEF2D05E2B40A335BF7BA2F3BD09B62051CD2895B71A458FE205
+
+---------- Decrypt begins
+--- KeyStore.getInstance
+--- keyStore.load
+--- keyStore.getEntry
+--- secretKeyEntry.getSecretKey
+--- Cipher.getInstance
+--- new IvParameterSpec
+--- cipher.init
+--- cipher.doFinal
+    IV: E226FA7D99B281E435DF3DFF4526703A
+Crypto: 9ECB41E58CF4BEF2D05E2B40A335BF7BA2F3BD09B62051CD2895B71A458FE205
+Cipher: 00112233445566778899AABBCCDDEEFF80000000000000000000000000000000
+
+ 
